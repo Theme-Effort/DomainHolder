@@ -4,7 +4,7 @@
 $domain_name = preg_replace('/^www./','',$_SERVER["HTTP_HOST"]); 
 
 // random image
-$dir = "img/";
+$dir = "img/bg/";
 $images = scandir($dir);
 $i = rand(2, sizeof($images)-1);
 ?>
@@ -29,30 +29,32 @@ $i = rand(2, sizeof($images)-1);
 		<link href='http://fonts.googleapis.com/css?family=Economica:400,700|Sonsie+One|Wire+One|Lobster|Pacifico|Londrina+Shadow|Oswald:400,300,700' rel='stylesheet' type='text/css'>
 		
 		<!-- image randomizer --> 
-		<style>body {background-image: url("img/<?php echo $images[$i]; ?>");}</style>
+		<style>body {background-image: url("img/bg/<?php echo $images[$i]; ?>");}</style>
 		
     </head>
     <body>
-        <!-- Add your site or application content here -->
-		<header>
-		
-		</header>
-		
-		<content>
-			<div class="wrap">	
-				<div id="domain-name">
-					<h1>domain.com</h1>
-					<p>New domain has been setup but it's not quite ready yet. Please come back soon ! :)</p>
-				</div>
-			</div>
-		</content>
+		<div class="wrap">
+			<!-- Add your site or application content here -->
+			<header>
+			
+			</header>
+			
+			<section>
+					
+					<div id="domain-name">
+						<h1>domain.com</h1>
+						<p>New domain has been setup but it's not quite ready yet. Please come back soon ! :)</p>
+					</div>
+				
+			</section>
 
-		<footer>
-		</footer>
-		
+			<footer>
+				<a class="pull-right" href="http://www.ultrainternet.co.uk"><img src="img/ui_logo_best1.png" alt="Ultra Internet Logo"></a>
+				<span class="pull-right">Proudly hosted by </span>
+			</footer>
+		</div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. 
