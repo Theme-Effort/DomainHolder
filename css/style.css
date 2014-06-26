@@ -1,0 +1,81 @@
+body {
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center; 
+}
+
+h1 {font-size: 5em}
+h2 {font-size: 3em}
+h3 {font-size: 2em}
+h4 {font-size: 1.5em}
+h5 {font-size: 1em}
+
+.wrap {
+	width: 50%;
+	margin: 0 auto;
+}
+
+header {
+	height:100px;
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Londrina Shadow', cursive;
+	font-family: 'Pacifico', cursive;
+	font-family: 'Lobster', cursive;
+	font-family: 'Wire One', sans-serif;
+	font-family: 'Sonsie One', cursive;
+	font-family: 'Economica', sans-serif;
+	font-size:1.4em;
+	text-shadow: 1px 1px #000;
+}
+
+/*
+font-family: 'Oswald', sans-serif;
+font-family: 'Londrina Shadow', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Wire One', sans-serif;
+font-family: 'Sonsie One', cursive;
+font-family: 'Economica', sans-serif;
+*/
+
+#domain-name {
+
+	color: #FFF;
+	text-align:center;
+	
+}
+
+#domain-name  h1{
+	margin:0;
+
+	font-family: 'Oswald', sans-serif;
+	font-family: 'Londrina Shadow', cursive;
+	font-family: 'Pacifico', cursive;
+	font-family: 'Lobster', cursive;
+	--font-family: 'Wire One', sans-serif;
+	--font-family: 'Sonsie One', cursive;
+	--font-family: 'Economica', sans-serif;
+	text-shadow: 1px 1px #000;
+}
+
+
+
+/* Responsiveness */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (max-width:720px) {
+	body {
+		margin:20px
+	}
+	.wrap {
+		width: 100%;
+		margin: 0;
+	}
+	h1 {
+		font-size:3em;
+	}
+}
+
