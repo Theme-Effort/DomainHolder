@@ -42,7 +42,7 @@ $i = rand(2, sizeof($images)-1);
 			<section>
 					
 					<div id="domain-name">
-						<h1>domain.com</h1>
+						<h1><?php echo $domain_name ?></h1>
 						<p>New domain has been setup but it's not quite ready yet. Please come back soon ! :)</p>
 					</div>
 				
